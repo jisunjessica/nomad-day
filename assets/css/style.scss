@@ -1,8 +1,30 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+/** color **/
+$primary-fill: #ffc552;
+$primary-txt: #ff8a50;
+$success: #5ed4c9;
+$danger: #ff6c6c;
 
+$gray-0: #e4e5e7;
+$gray-1: #cbcfd4;
+$gray-2: #868e96;
+$gray-3: #495057;
+
+$ui-disabled: $gray-0;
+$txt-placeholder: $gray-1;
+$txt-gray: $gray-2;
+$txt-darkgray: $gray-3;
+$input-border-focused: $gray-3;
+
+/** basecoat **/
+* {
+  font-family: effra, sans-serif;
+  color: $txt-darkgray;
+}
+
+/** styles **/
 .container {
   max-width: 600px;
 }
