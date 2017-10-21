@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  color: $primary-txt;
+  color: $primary-fill;
   font-size: 62px;
   font-weight: 700;
   letter-spacing: -0.01em;
@@ -77,7 +77,7 @@ a.paragraph-link {
 }
 
 .paragraph-title {
-  border-top: 3px dashed $primary-fill;
+  border-top: 2px solid $primary-fill;
   margin-top: 60px;
   margin-bottom: 36px;
   padding-top: 17px;
@@ -101,7 +101,20 @@ a.paragraph-link {
   width: 60px;
   height: 60px;
   border-radius: $border-radius-base;
+  display: inline-block;
 }
+
+.feature-list {
+  font-size: 20px;
+  list-style-type: circle;
+  margin-bottom: 80px;
+  padding-left: 20px;
+  li {
+    margin-bottom: 8px;
+  }
+
+}
+
 
 .btn-fill-primary {
   background-color: $primary-fill;
@@ -115,7 +128,6 @@ a.paragraph-link {
     color: $primary-txt;
   }
 }
-
 
 .highlighting {
   background-color: $primary-light;
