@@ -15,7 +15,7 @@ h3 { color: #ff8a50; font-size: 26px; font-weight: 700; }
 
 p { font-size: 20px; line-height: 1.65em; }
 
-a.paragraph-link { font-weight: 700; color: #ff8a50; }
+a.paragraph-link { font-weight: 500; color: #ff8a50; }
 a.paragraph-link:hover, a.paragraph-link:active { color: #ff8a50; background-color: #FFEBC7; border-radius: 4px; padding: 1px 3px; text-decoration: none; }
 
 .paragraph-title { border-top: 2px solid #ffc552; margin-top: 60px; margin-bottom: 36px; padding-top: 17px; line-height: 1.4em; }
