@@ -134,3 +134,22 @@ a.paragraph-link {
   border-radius: 4px;
   padding: 1px 3px;
 }
+
+
+/** Decorative shapes **/
+
+.circle0 {
+  fill: $primary-light;
+  position: absolute;
+  margin-top: -260px;
+  margin-left: -52px;
+  z-index: -1;
+}
+
+.circle1 {
+  fill: $success;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 420px;
+  z-index: -1;
+}
