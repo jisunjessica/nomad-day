@@ -5,6 +5,7 @@
 $primary-fill: #ffc552;
 $primary-txt: #ff8a50;
 $primary-light: #FFEBC7;
+$primary-light-adjust: #fff0d6;
 $success: #5ed4c9;
 $danger: #ff6c6c;
 
@@ -28,6 +29,7 @@ $border-radius-base: 6px;
   word-break: keep-all;
 }
 
+
 /** styles **/
 .container {
   max-width: 600px;
@@ -43,25 +45,39 @@ h1 {
   font-weight: 700;
   letter-spacing: -0.01em;
   margin: 0;
-  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 h2 {
   color: $success;
-  font-size: 42px;
+  font-size: 36px;
   font-weight: 500;
   line-height: 1em;
 }
 
 h3 {
-  color: $primary-txt;
-  font-size: 26px;
+  color: $txt-darkgray;
+  font-size: 30px;
   font-weight: 700;
 }
 
 p {
   font-size: 20px;
   line-height: 1.65em;
+}
+
+section.hero-section {
+  text-align: center;
+  background-color: $primary-light-adjust;
+  padding-top: 30px;
+  padding-bottom: 60px;
+
+}
+
+.app-icon-preview {
+  display: block;
+  width: 40%;
+  margin: 30px auto 50px auto;
 }
 
 a.paragraph-link {
@@ -77,15 +93,15 @@ a.paragraph-link {
 }
 
 .paragraph-title {
-  border-top: 2px solid $primary-fill;
-  margin-top: 60px;
+  border-bottom: 2px dotted $gray-0;
+  margin-top: 80px;
   margin-bottom: 36px;
-  padding-top: 17px;
+  padding-bottom: 17px;
   line-height: 1.4em;
 }
 
 .paragraph-content {
-  margin-bottom: 84px;
+  margin-bottom: 80px;
 }
 
 .img-main {
@@ -106,7 +122,7 @@ a.paragraph-link {
 
 .feature-list {
   font-size: 20px;
-  list-style-type: circle;
+  list-style-type: decimal;
   margin-bottom: 80px;
   padding-left: 20px;
   li {
@@ -135,6 +151,14 @@ a.paragraph-link {
   padding: 1px 3px;
 }
 
+footer {
+  background-color: $primary-light-adjust;
+  padding: 18px;
+  p {
+    color: $primary-txt;
+    font-size: 15px;
+  }
+}
 
 /** Decorative shapes **/
 
@@ -142,7 +166,7 @@ a.paragraph-link {
   fill: $primary-light;
   position: absolute;
   margin-top: -260px;
-  margin-left: -52px;
+  margin-left: -252px;
   z-index: -1;
 }
 
