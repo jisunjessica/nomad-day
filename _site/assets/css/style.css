@@ -39,7 +39,7 @@ a.paragraph-link:hover, a.paragraph-link:active { color: #ff8a50; background-col
 .highlighting { background-color: #FFEBC7; border-radius: 4px; padding: 1px 3px; }
 
 footer { background-color: #fff0d6; padding: 18px; }
-footer p { color: #ff8a50; font-size: 15px; }
+footer p { color: #ffc552; font-size: 15px; }
 
 /** Decorative shapes **/
 .circle0 { fill: #FFEBC7; position: absolute; margin-top: -260px; margin-left: -252px; z-index: -1; }
